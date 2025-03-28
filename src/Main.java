@@ -6,7 +6,7 @@ import static java.lang.System.*;
 public class Main {
     public static void main(String[] args) throws IllegalArgumentException, ArithmeticException{
         Scanner in = new Scanner(System.in);
-        out.println("Введите строку с арифметическим выражением между двумя числами:");
+        out.println("Введите строку с арифметическим выражением между числами:");
         String line = in.nextLine();
         double result = calc(line);
         out.println("Результат вычислений: ");
