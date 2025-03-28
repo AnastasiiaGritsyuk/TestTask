@@ -40,7 +40,6 @@ public class Main {
                     }
                 }
             }
-            System.out.println(builder1);
         }
         return builder1.toString().trim();
     }
